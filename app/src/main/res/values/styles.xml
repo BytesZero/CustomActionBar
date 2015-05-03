@@ -1,8 +1,37 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
+    </style>
+    <!-- ActionBar左边和右边公共的属性-->
+    <style name="UIMyActionBarLeftAndRight">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <!--ActionBar左边的属性-->
+    <style name="UIMyActionBarLeft" parent="UIMyActionBarLeftAndRight">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:drawableLeft">@drawable/ic_action_back</item>
+    </style>
+    <!--ActionBar右边的属性-->
+    <style name="UIMyActionBarRight" parent="UIMyActionBarLeftAndRight">
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+
+    <!-- ActionBar 标题的属性-->
+    <style name="UIMyActionBarTitle">
+        <item name="android:layout_weight">2</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
     </style>
 
 </resources>

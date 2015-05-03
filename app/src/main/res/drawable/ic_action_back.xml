@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@mipmap/ic_action_back_dark" android:state_pressed="true"/>
+    <item android:drawable="@mipmap/ic_action_back_dark" android:state_long_pressable="true"/>
+    <item android:drawable="@mipmap/ic_action_back_dark" android:state_selected="true"/>
+    <item android:drawable="@mipmap/ic_action_back"/>
+</selector>

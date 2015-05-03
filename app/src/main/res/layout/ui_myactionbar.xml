@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:orientation="horizontal"
+    android:background="#aaff31a248">
+
+    <TextView
+        android:id="@+id/ui_myactionbar_tv_left"
+        style="@style/UIMyActionBarLeft"/>
+    <TextView
+        android:id="@+id/ui_myactionbar_tv_title"
+        style="@style/UIMyActionBarTitle"/>
+    <TextView
+        android:id="@+id/ui_myactionbar_tv_right"
+        style="@style/UIMyActionBarRight"/>
+
+</LinearLayout>
