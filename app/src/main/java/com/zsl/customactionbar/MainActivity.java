@@ -6,6 +6,8 @@ import android.widget.TextView;
 
 
 public class MainActivity extends Activity {
+
+
     TextView tv_left,tv_title,tv_right;
 
     @Override
